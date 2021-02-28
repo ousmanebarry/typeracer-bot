@@ -21,24 +21,23 @@ except TimeoutException:
     driver.close()
     sys.exit()
 
+
+def type_bot():
+    for word in my_text:
+        pyautogui.typewrite(word)
+
+
 if page_loaded:
     driver.find_element_by_xpath('//*[@id="gwt-uid-1"]/a').click()
-    try:
-        WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="gwt-uid-17"]/table'
-                                                                                     '/tbody/tr[2]/td/table/tbody/tr[ '
-                                                                                     '1]/td/table/tbody/tr['
-                                                                                     '1]/td/div/div')))
-        my_text = driver.find_element_by_xpath('//*[@id="gwt-uid-17"]/table/tbody/tr[2]/td/table/tbody/tr['
-                                               '1]/td/table/tbody/tr[1]/td/div/div').text
-    except TimeoutException:
-        print("Page took too long to load!")
-        driver.close()
-        sys.exit()
+    WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="gwt-uid-17"]/table/tbody'
+                                                                                 '/tr[2]/td/table/tbody/tr[ '
+                                                                                 '1]/td/table/tbody/tr[1]/td/div/div')))
+    my_text = driver.find_element_by_xpath('//*[@id="gwt-uid-17"]/table/tbody/tr[2]/td/table/tbody/tr['
+                                           '1]/td/table/tbody/tr[1]/td/div/div').text
+    input_box = driver.find_element_by_xpath('//*[@id="gwt-uid-17"]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/input')
 
     while not timer_finished:
-        current_time = driver.find_element_by_xpath('/html/body/div[4]/div/table/tbody/tr/td/table/tbody/tr/td[3]/div').text
-        print(current_time)
-        if current_time == ':00':
+        input_box_class = input_box.get_attribute('class')
+        if input_box_class == 'txtInput':
             timer_finished = True
-            for word in my_text:
-                pyautogui.write(word)
+            type_bot()
