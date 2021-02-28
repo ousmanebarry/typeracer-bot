@@ -1,17 +1,17 @@
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
 import sys
-import time
 import pyautogui
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support import expected_conditions as EC
+
 
 driver = webdriver.Chrome(executable_path="/Users/Owner/Documents/chromedriver.exe")
 driver.get("https://play.typeracer.com/")
-delay = 10
 page_loaded = False
 timer_finished = False
+delay = 3
 
 try:
     WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.ID, 'gwt-uid-1')))
