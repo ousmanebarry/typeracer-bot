@@ -73,7 +73,6 @@ if page_loaded:
                 input_box.click()
                 type_bot(my_text)
                 count += 1
-                print(count)
                 driver.implicitly_wait(10)
                 WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'raceAgainLink')))
                 find_element('//*[contains(@id,"gwt-uid-")]/table/tbody/tr[3]/td/table/tbody/tr/td[2]/a').click()
