@@ -4,7 +4,7 @@
 
 This is a bot for the website [typeracer.com](https://play.typeracer.com/) made with the use of Python to do automatically type 
 
-![typeracer_bot_video](https://user-images.githubusercontent.com/79618101/110036666-59d25180-7d0b-11eb-8fa8-989c659a2c7c.mp4)
+![typeracer_bot_video](https://user-images.githubusercontent.com/79618101/110040746-44f8bc80-7d11-11eb-9e83-98d30adea03e.gif)
 
 This is one of my first few Python projects so I will add more functionalities to this bot as time goes on
 
