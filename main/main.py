@@ -1,15 +1,13 @@
 import sys
 import pyautogui
-from setup.setup import username, password, number_of_games
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
+from setup.setup import username, password, number_of_games, driver
 
 # Opens website and maximizes window
-driver = webdriver.Chrome(executable_path="/Users/Owner/Documents/chromedriver.exe")
 driver.get("https://play.typeracer.com/")
 driver.maximize_window()
 
