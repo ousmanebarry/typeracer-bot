@@ -16,6 +16,7 @@ driver.maximize_window()
 # Important Variables
 page_loaded = False
 timer_finished = False
+current_count = 0
 delay = 3
 
 
@@ -34,10 +35,10 @@ def find_element(xpath):
 def type_bot(text):
     for word in text:
         pyautogui.typewrite(word, interval=0.001)
-
-    driver.implicitly_wait(10)
-    WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'raceAgainLink')))
-    find_element('//*[contains(@id,"gwt-uid-")]/table/tbody/tr[3]/td/table/tbody/tr/td[2]/a').click()
+    if current_count < number_of_games:
+        driver.implicitly_wait(10)
+        WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'raceAgainLink')))
+        find_element('//*[contains(@id,"gwt-uid-")]/table/tbody/tr[3]/td/table/tbody/tr/td[2]/a').click()
 
 
 # Logging In
@@ -83,5 +84,10 @@ if page_loaded:
                                                                                   '2]/td')).perform()
                 # Clicks the input box and starts typing
                 input_box.click()
+                current_count += 1
                 type_bot(my_text)
 
+# Closes everything when the game is over
+print('Game Finished!')
+driver.close()
+sys.exit()
