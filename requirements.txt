@@ -1,0 +1,2 @@
+PyAutoGUI~=0.9.50
+selenium~=3.141.0
