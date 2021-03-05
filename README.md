@@ -17,15 +17,15 @@ This is one of my first few Python projects so I will add more functionalities t
 
 ## How to run?
 
-### Python Build
+1. Download 
 
 
 
 ## Built With
 
 * [Pycharm](https://www.jetbrains.com/pycharm/) - The IDE used
-* [Python](https://www.python.org/) - The programming language used
-* [ChromeWeb Driver](https://chromedriver.chromium.org/downloads) - The 
+* [Python 3.8](https://www.python.org/) - The programming language used
+* [Chrome Web Driver](https://chromedriver.chromium.org/downloads) - The chrome web driver used to automate 
 
 ## License 
 
@@ -33,5 +33,5 @@ This project is licensed under MIT License - see the [LICENSE.md](https://github
 
 ## Author
 
-* This project was made by me @ousmanebarry 
+* This project was made by me 
 
