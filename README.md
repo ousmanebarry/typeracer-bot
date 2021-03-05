@@ -18,21 +18,6 @@ This is a bot for the website [typeracer.com](https://play.typeracer.com/) made 
 
 1. Download 
 
-
-## Built With
-
-* [Pycharm](https://www.jetbrains.com/pycharm/) - The IDE used
-* [Python 3.8](https://www.python.org/) - The programming language used
-* [Chrome Web Driver](https://chromedriver.chromium.org/downloads) - The chrome web driver used to automate 
-
-## License 
-
-This project is licensed under MIT License - see the [LICENSE.md](https://github.com/ousmanebarry/typeracer-bot/blob/main/LICENSE) file for details
-
-## Author
-
-* This project was made by me. iT is one of my first few Python projects so I will add more functionalities to this bot as time goes on
-
 ## FAQ
 
 **Q**: **This is a question**
@@ -49,3 +34,16 @@ This project is licensed under MIT License - see the [LICENSE.md](https://github
 
 **A**: This is an answer
 
+## Built With
+
+* [Pycharm](https://www.jetbrains.com/pycharm/) - The IDE used
+* [Python 3.8](https://www.python.org/) - The programming language used
+* [Chrome WebDriver](https://chromedriver.chromium.org/downloads) - The executable that replicates Google Chrome   
+
+## License 
+
+This project is licensed under MIT License - see the [LICENSE.md](https://github.com/ousmanebarry/typeracer-bot/blob/main/LICENSE) file for details
+
+## Author
+
+* This project was made by me. iT is one of my first few Python projects so I will add more functionalities to this bot as time goes on
