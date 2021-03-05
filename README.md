@@ -27,7 +27,7 @@ This is a bot for the website [typeracer.com](https://play.typeracer.com/) made 
 
 ## Installation Steps
 
-1. Go to [Chrome WebDriver](https://chromedriver.chromium.org/downloads) and donwload the correct WebDriver for you version of chrome. **If you do not know your chrome version, you can find it*** [here](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
+1. Go to [Chrome WebDriver](https://chromedriver.chromium.org/downloads) and donwload the correct WebDriver for you version of chrome. **_If you do not know your chrome version, you can find it_** [here](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
 2. During the installation process of Chrome WebDriver, remember 
 ## FAQ
 
