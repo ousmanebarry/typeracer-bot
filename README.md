@@ -2,7 +2,8 @@
 
 ## Table of Content
 
-1. [Demo. ](##demo)
+1. [Demo](##Demo)
+2. [Functionalities](##Functionalities)
 
 ## Demo 
 
