@@ -1,5 +1,9 @@
 # Typeracer Bot
 
+## Table of Content
+
+1. [Demo. ](##demo)
+
 ## Demo 
 
 ![typeracer_bot_video](https://imgur.com/4ELfUT3)
