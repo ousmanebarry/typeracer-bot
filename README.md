@@ -27,7 +27,7 @@ This is a bot for the website [typeracer.com](https://play.typeracer.com/) made 
 
 ## Installation Steps
 
-1. Download 
+1. Go to [chrome webdriver](https://chromedriver.chromium.org/downloads) and install the correct webdriver for you version of chrome. **If you do not know your chrome version, follow this*** [tutorial](https://help.zenplanner.com/hc/en-us/articles/204253654-How-to-Find-Your-Internet-Browser-Version-Number-Google-Chrome#:~:text=1)%20Click%20on%20the%20Menu,number%20can%20be%20found%20here.)
 
 ## FAQ
 
