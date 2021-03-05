@@ -27,8 +27,8 @@ This is a bot for the website [typeracer.com](https://play.typeracer.com/) made 
 
 ## Installation Steps
 
-1. Go to [chrome webdriver](https://chromedriver.chromium.org/downloads) and install the correct webdriver for you version of chrome. **If you do not know your chrome version, follow this*** [tutorial](https://help.zenplanner.com/hc/en-us/articles/204253654-How-to-Find-Your-Internet-Browser-Version-Number-Google-Chrome#:~:text=1)%20Click%20on%20the%20Menu,number%20can%20be%20found%20here.)
-
+1. Go to [Chrome WebDriver](https://chromedriver.chromium.org/downloads) and donwload the correct WebDriver for you version of chrome. **If you do not know your chrome version, you can find it*** [here](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
+2. During the installation process of Chrome WebDriver, remember 
 ## FAQ
 
 **Q**: **This is a question**
@@ -57,4 +57,4 @@ This project is licensed under MIT License - see the [LICENSE.md](https://github
 
 ## Author
 
-* This project was made by me. iT is one of my first few Python projects so I will add more functionalities to this bot as time goes on
+* This project was made by me. It is one of my first few Python projects so I will add more functionalities to this bot as time goes on
