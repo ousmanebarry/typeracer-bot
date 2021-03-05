@@ -27,7 +27,7 @@ This is a automated program for the website [typeracer.com](https://play.typerac
 
 ## Installation Steps
 
-1. Go to [Chrome WebDriver](https://chromedriver.chromium.org/downloads) and donwload the correct WebDriver for you version of chrome. **_If you do not know your chrome version, you can find it_** [here](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
+1. Go to [chrome webdriver](https://chromedriver.chromium.org/downloads) and donwload the correct webdriver for you version of chrome. **If you do not know your chrome version, you can find it** [**here**](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
 2. During the installation process of Chrome WebDriver, remember the path where the exe file has been installed
 3. Open the project with an IDE, inside the IDE built-in terminal write : `pip install -r requirements.txt`
 4. Open **setup.py** and follow the instructions
@@ -35,29 +35,29 @@ This is a automated program for the website [typeracer.com](https://play.typerac
 
 ## FAQ
 
-**Q**: **How do I change the bot typing speed?**
+* **Q**: **How do I change the bot typing speed?**
 
-**A**: In line 35 of the **main.py** file, you can play with the number inside interval. _PS : I recommend keeping it at the current speed as it seems to be the optimal one_
-
-
-**Q**: **Why doesn't the bot type faster?**
-
-**A**: [Typeracer.com](https://play.typeracer.com/) seems to have limitations as to how fast you can type. _PS : I'm looking for a work-around_
+* **A**: In line 35 of the **main.py** file, you can play with the number inside interval. _PS : I recommend keeping it at the current speed as it seems to be the optimal one_
 
 
-**Q**: **What average wpm can I except with the current configuration?**
+* **Q**: **Why doesn't the bot type faster?**
 
-**A**: You can except an average of around 100wpm to 115 wmp
-
-
-**Q**: **Why does the bot not get past the login page?**
-
-**A**: Make sure your account is verified and you put in the correct login informations
+* **A**: [typeracer.com](https://play.typeracer.com/) seems to have limitations as to how fast you can type. _PS : I'm looking for a work-around_
 
 
-**Q**: **Why am I having problems running the bot?**
+* **Q**: **What average wpm can I except with the current configuration?**
 
-**A**: You probably didn't follow the [Installation Steps](#Installation-Steps) well
+* **A**: You can except an average of around 100wpm to 115 wmp
+
+
+* **Q**: **Why does the bot not get past the login page?**
+
+* **A**: Make sure your account is verified and you put in the correct login informations
+
+
+* **Q**: **Why am I having problems running the bot?**
+
+* **A**: You probably didn't follow the [Installation Steps](#Installation-Steps) well
 
 ## Built With
 
