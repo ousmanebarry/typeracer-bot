@@ -13,7 +13,7 @@
 
 ## Demo 
 
-![typeracer_bot_video](https://imgur.com/4ELfUT3)
+![typeracer-bot-gif](https://user-images.githubusercontent.com/79618101/110067391-a042a300-7d41-11eb-90d2-2da2700f69ca.gif)
 
 ## Description
 
