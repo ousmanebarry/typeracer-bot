@@ -43,7 +43,7 @@ This is a automated program for the website [typeracer.com](https://play.typerac
 
 * **Q**: **Why doesn't the bot type faster?**
 
-* **A**: [typeracer.com](https://play.typeracer.com/) seems to have limitations as to how fast you can type. _PS : I'm looking for a work-around_
+* **A**: Pyautogui is sometimes too fast and [typeracer.com](https://play.typeracer.com/) seems to have limitations as to how fast you can type using pyautogui. _PS : I'm looking for a work-around_
 
 
 * **Q**: **What average wpm can I except with the current configuration?**
@@ -58,7 +58,7 @@ This is a automated program for the website [typeracer.com](https://play.typerac
 
 * **Q**: **Why am I having problems running the bot?**
 
-* **A**: You probably didn't follow the [nstallation steps](#Installation-Steps) well
+* **A**: You probably didn't follow the [nstallation steps](#Installation-Steps) well. Retry that and if it still doesn't work try to [contact](#Contact) me
 
 ## Built With
 
