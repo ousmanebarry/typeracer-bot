@@ -4,13 +4,15 @@
 
 This is a bot for the website [typeracer.com](https://play.typeracer.com/) made with the use of Python to do automatically type 
 
-![typeracer_bot_video](https://user-images.githubusercontent.com/79618101/110040746-44f8bc80-7d11-11eb-9e83-98d30adea03e.gif)
+![typeracer_bot_video](https://imgur.com/4ELfUT3)
+
 
 This is one of my first few Python projects so I will add more functionalities to this bot as time goes on
 
 ## Functionalities
 
-* Automatically types text from 
+* Logs in to a [typeracer.com](https://play.typeracer.com/) account 
+* Automatically plays 
 
 ## How to use?
 
