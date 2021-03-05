@@ -29,7 +29,7 @@ This is a automated program for the website [typeracer.com](https://play.typerac
 ## Installation Steps
 
 1. Go to [chrome webdriver](https://chromedriver.chromium.org/downloads) and donwload the correct webdriver for you version of chrome. 
-2. **If you do not know your chrome version, you can find it** [**here**](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
+2. **If you do not know your chrome version, you can find it** [here](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
 3. During the installation process of Chrome WebDriver, remember the path where the exe file has been installed
 4. Open the project with an IDE, inside the IDE built-in terminal write : `pip install -r requirements.txt`
 5. Open **setup.py** and follow the instructions
@@ -59,7 +59,7 @@ This is a automated program for the website [typeracer.com](https://play.typerac
 
 * **Q**: **Why am I having problems running the bot?**
 
-* **A**: You probably didn't follow the [nstallation steps](#Installation-Steps) well. Retry that and if it still doesn't work try to [contact](#Contact) me
+* **A**: You probably didn't follow the [installation steps](#Installation-Steps) well. Retry following the installation steps and if it still doesn't work try to [contact](#Contact) me
 
 ## Built With
 
