@@ -10,6 +10,7 @@
 6. [Build With](#Built-With)
 7. [License](#License)
 8. [Author](#Author)
+9. [Contact](#Contact)
 
 ## Demo 
 
@@ -57,7 +58,7 @@ This is a automated program for the website [typeracer.com](https://play.typerac
 
 * **Q**: **Why am I having problems running the bot?**
 
-* **A**: You probably didn't follow the [Installation Steps](#Installation-Steps) well
+* **A**: You probably didn't follow the [nstallation steps](#Installation-Steps) well
 
 ## Built With
 
@@ -71,4 +72,8 @@ This project is licensed under MIT License - see the [LICENSE.md](https://github
 
 ## Author
 
-* This project was made by me. It is one of my first few Python projects and I will add more functionalities to this as time goes on
+* This project was made by me. It is one of my first few Python projects and I will add more functionalities to this as time goes 
+
+## Contact 
+
+* If you're encountering any problems or would like to share some things I could improve this bot on, feel free to reach me on Discord at **Barry#0638** 
