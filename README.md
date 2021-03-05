@@ -3,7 +3,13 @@
 ## Table of Content
 
 1. [Demo](#Demo)
-2. [Functionalities](#Functionalities)
+2. [Description](#Description)
+3. [Functionalities](#Functionalities)
+4. [Installation Steps](#Installation Steps)
+5. [FAQ](#FAQ)
+6. [Build With](#Build With)
+7. [License](#License)
+8. [Author](#Author)
 
 ## Demo 
 
