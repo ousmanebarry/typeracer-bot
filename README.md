@@ -7,7 +7,7 @@
 3. [Functionalities](#Functionalities)
 4. [Installation Steps](#Installation-Steps)
 5. [FAQ](#FAQ)
-6. [Build With](#Built-With)
+6. [Built With](#Built-With)
 7. [License](#License)
 8. [Author](#Author)
 9. [Contact](#Contact)
