@@ -36,13 +36,16 @@ This project is licensed under MIT License - see the [LICENSE.md](https://github
 ## FAQ
 
 **Q**: **This is a question**
+
 **A**: This is an answer
 
 
 **Q**: **This is a question**
+
 **A**: This is an answer
 
 
 **Q**: **This is a question**
+
 **A**: This is an answer
 
