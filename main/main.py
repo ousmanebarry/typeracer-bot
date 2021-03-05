@@ -86,6 +86,6 @@ if page_loaded:
                 type_bot(my_text)
 
 # Closes everything when the game is over
-print('Game Finished!')
+print(f'Game Finished! Number of games played is : {current_count}')
 driver.close()
 sys.exit()
